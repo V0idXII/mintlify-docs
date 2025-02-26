@@ -19,7 +19,7 @@
     {
       "group": "Documentazione",
       "pages": [
-        "introduction",
+        "home",
         "quickstart",
         "development"
       ]
