@@ -1,0 +1,57 @@
+import { InfoBox, ItemTable } from '@components'; // Importa componenti personalizzati se necessario
+
+# Oasis - ItemCustom
+
+<InfoBox>
+  Questa pagina è dedicata alla personalizzazione degli oggetti nel plugin Oasis.
+</InfoBox>
+
+## Introduzione
+
+Il plugin **Oasis** permette di personalizzare gli oggetti nel gioco, aggiungendo effetti, modificando proprietà e molto altro. Questa funzionalità è particolarmente utile per i server che desiderano offrire un'esperienza di gioco unica ai propri giocatori.
+
+## Comandi Principali
+
+- **/itemcustom create <nome>**: Crea un nuovo oggetto personalizzato.
+- **/itemcustom edit <nome>**: Modifica un oggetto personalizzato esistente.
+- **/itemcustom delete <nome>**: Elimina un oggetto personalizzato.
+
+## Proprietà Personalizzabili
+
+Ecco una lista delle proprietà che possono essere modificate:
+
+<ItemTable>
+  <thead>
+    <tr>
+      <th>Proprietà</th>
+      <th>Descrizione</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>Nome</td>
+      <td>Il nome visualizzato dell'oggetto.</td>
+    </tr>
+    <tr>
+      <td>Descrizione</td>
+      <td>Una breve descrizione dell'oggetto.</td>
+    </tr>
+    <tr>
+      <td>Effetti</td>
+      <td>Effetti speciali applicati all'oggetto.</td>
+    </tr>
+    <tr>
+      <td>Durabilità</td>
+      <td>La durabilità dell'oggetto.</td>
+    </tr>
+  </tbody>
+</ItemTable>
+
+## Esempi di Utilizzo
+
+### Creazione di un Oggetto Personalizzato
+
+Per creare un nuovo oggetto personalizzato, utilizza il comando:
+
+```bash
+/itemcustom create SpadaFiammeggiante
