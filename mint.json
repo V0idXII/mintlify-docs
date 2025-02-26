@@ -20,6 +20,12 @@
       "pages": [
         "home"
       ]
+    },
+    {
+      "group": "SURVIVAL",
+      "pages": [
+        "item"
+      ]
     }
   ],
   "footerSocials": {
