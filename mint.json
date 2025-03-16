@@ -6,9 +6,9 @@
   },
   "favicon": "/logo/logo.png",
   "colors": {
-    "primary": "#8f16c7",
-    "light": "#8f16c7",
-    "dark": "#8f16c7",
+    "primary": "#A84DD2",
+    "light": "#A84DD2",
+    "dark": "#A84DD2",
     "anchors": {
       "from": "#0D9373",
       "to": "#07C983"
